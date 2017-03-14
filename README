@@ -1,0 +1,14 @@
+Author: Jarvis Altrin Jawahar
+FSUID: jj16b
+Subject: Advanced Algorithm Project
+
+The Classes used:
+LineDetails.java
+Preprocessor.java
+QueryExecutor.java
+Main.java
+
+The classes are situated inside the "com.company" package. The makefile is situated outside the package. Kindly type "make all" from the 'src' directory to further information on how to run the program from commmand line.
+
+In the preprocessing process, I group the input file into 50 clusters based on the Kendall Tau distance.
+In the query process, I take 10 closest clusters to the query string.
